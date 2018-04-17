@@ -1,0 +1,22 @@
+{
+  "presets": [["env",{ "modules":false ,"loose": true }], "react", "stage-0"],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"],
+      "plugins": [
+        "transform-runtime",
+        "transform-decorators-legacy"
+      ]
+    },
+    "production": {
+      "plugins":["transform-decorators-legacy"]
+    },
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+
+  },
+  "plugins": [
+    ["import", { "libraryName": "antd", "style": "css" }]
+    ]
+}
