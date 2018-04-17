@@ -134,8 +134,12 @@
     "react-dom": "^16.0.0",
     "react-router": "^4.0.0",
     "react-router-dom": "^4.0.0",
+    "typescript": "^2.3.4",
     "uuid": "^3.1.0",
     "wangeditor": "^3.0.9",
-    "yrui": "^1.7.0"
+    "yrui": "^1.7.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
   }
 }
